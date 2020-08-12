@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Movie Recommender</title>
+		<link rel='stylesheet' href="{{ url_for('static', filename='recommend.css') }}">
+	</head>
+	<body>
+		<div class='header'>
+			<h1>Movie Recommendation System</h1>
+			<h3>THE TOP 5 RECOMMENDED MOVIES FOR YOU ARE :</h3>
+			<form>
+			<h2 style='text-align:center;font-size:38px;font-family:"Comic Sans MS", cursive, sans-serif;color:white;text-shadow: 3px 3px black;-webkit-text-stroke:2px black;line-height:30px'> {{ prediction[0] }} </h2>
+			<h2 style='text-align:center;font-size:38px;font-family:"Comic Sans MS", cursive, sans-serif;color:white;text-shadow: 3px 3px black;-webkit-text-stroke:2px black;line-height:30px'> {{ prediction[1] }} </h2>
+			<h2 style='text-align:center;font-size:38px;font-family:"Comic Sans MS", cursive, sans-serif;color:white;text-shadow: 3px 3px black;-webkit-text-stroke:2px black;line-height:30px'> {{ prediction[2] }} </h2>
+			<h2 style='text-align:center;font-size:38px;font-family:"Comic Sans MS", cursive, sans-serif;color:white;text-shadow: 3px 3px black;-webkit-text-stroke:2px black;line-height:30px'> {{ prediction[3] }} </h2>
+			<h2 style='text-align:center;font-size:38px;font-family:"Comic Sans MS", cursive, sans-serif;color:white;text-shadow: 3px 3px black;-webkit-text-stroke:2px black;line-height:30px'> {{ prediction[4] }} </h2>
+			</form>
+		</div>
+	</body>
+</html>

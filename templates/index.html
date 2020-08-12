@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Movie Recommender</title>
+		<link rel='stylesheet' href="{{ url_for('static', filename='index.css') }}">
+	</head>
+	<body>
+		<div class='header'>
+			<h1>Movie Recommendation System</h1>
+			<h3>Movies will be recommended on the basis of the movie you suggest below</h3>
+			<form action="{{ url_for('recommend')}}", method='POST', autocomplete='off'>
+					<div class='text-box'>
+						<input type='text', name='movie_title', onfocus="this.value=''", class='search-field', placeholder='Enter the movie . . . .' id='search-text'>
+						<button type='submit' class='search-btn'>Search</button>
+					</div>
+			</form>
+		</div>
+	</body>
+</html>

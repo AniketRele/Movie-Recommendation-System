@@ -1,0 +1,52 @@
+h1
+{
+	text-align: center;
+	padding-top:100px;
+	padding-bottom:10px;
+	font-size:80px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color:white;
+	margin-top:-10px;
+	text-shadow: 7px 7px black;
+	-webkit-text-stroke: 3px black;
+}
+h3
+{
+	text-align: center;
+	margin-top:-50px;
+	font-size:29px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color:white;
+	text-shadow: 3px 3px black;
+	-webkit-text-stroke: 1px black;
+}
+.header
+{
+	background-image:url('backimg.jpg');
+	background-size:cover;
+	height: 100%; 
+	width:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity:0.9;
+	margin-left:-10px;
+}
+.search-field
+{
+	margin-left:370px;
+	border-radius:20px;
+	height:50px;
+	width:500px;
+	padding:15px;
+	font-size:20px;
+}
+.search-btn
+{
+	border-radius:20px;
+	height:50px;
+	width:100px;
+	margin-top:20px;
+	font-size:20px;
+	cursor:pointer;	
+}
