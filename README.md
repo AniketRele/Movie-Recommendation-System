@@ -8,7 +8,7 @@ Please Leave a **STAR** if you like my project.
 
 Datasets which I used are:
 1) https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset
-2) https://www.kaggle.com/rounakbanik/the-movies-dataset
+2) https://www.kaggle.com/rounakbanik/the-movies-dataset     ----> Just download movies_metadata.csv and credits.csv
 
 And also I scraped some data :
 
