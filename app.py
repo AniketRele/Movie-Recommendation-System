@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 
 
-final = pd.read_csv(r"C:\Users\Admin\Desktop\movie recommendation with flask\final_dataset.csv")
+final = pd.read_csv("dataset/final_dataset.csv")
 cv = CountVectorizer()
 final_cv = cv.fit_transform(final['combined'])
 similarity = cosine_similarity(final_cv)
